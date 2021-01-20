@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (min-width: 1028px)" href="css/desktop.css">
-    <link rel="stylesheet" media="screen and (max-width: 1027px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobile.css">
     <title>Emily Spahr's Porfolio - Main</title>
 </head>
 <body>
@@ -12,16 +12,19 @@
         Does not scroll 
         No Background Color-->
     <nav>
+        <img src="./images/logo.png" alt="Logo" >
         <h1>Emily Spahr</h1>
-        <div>
-            <a href="creations.html">Creations</a>
-        </div>
-        <div>
-            <a href="passions.html">Passions</a>
-        </div>    
+        <ul>
+            <li>
+                <a href="creations.html">Creations</a>
+            </li>
+            <li>
+                <a href="passions.html">Passions</a>
+            </li>
+        </ul>
     </nav>
 
-    <!-- Pretty Picture at top with Name and short statement - Has background image-->
+    <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
     <header>
         <div>
             <h2>Emily Spahr</h2>
@@ -29,39 +32,49 @@
         </div>
     </header>
 
+    <!-- Body woth various project blocks-->
     <section>
-        <img src="./images/placeholder.png" alt="Place Holder Image" >
-        <h2>Project Name 1</h2>
-        <aside>Lorem ipsum dolor sit amet.</aside>
+        <h2>WORK</h2>
+      <div class="leftHandProject">
+          <img src="./images/placeholder.png" alt="Place Holder Image" >
+          <h2>Project Name 1</h2>
+          <aside>Lorem ipsum dolor sit amet.</aside>
+      </div>
+      <div class="rightHandProject">
+          <img src="./images/placeholder.png" alt="Place Holder Image" >
+          <h2>Project Name 2</h2>
+          <aside>Lorem ipsum dolor sit amet.</aside>
+      </div>
+      <div class="leftHandProject">
+          <img src="./images/placeholder.png" alt="Place Holder Image" >
+          <h2>Project Name 3</h2>
+          <aside>Lorem ipsum dolor sit amet.</aside>
+      </div>
+      <div class="rightHandProject">
+          <img src="./images/placeholder.png" alt="Place Holder Image" >
+          <h2>Project Name 4</h2>
+          <aside>Lorem ipsum dolor sit amet.</aside>
+      </div>
     </section>
-    <section>
-        <img src="./images/placeholder.png" alt="Place Holder Image" >
-        <h2>Project Name 2</h2>
-        <aside>Lorem ipsum dolor sit amet.</aside>
-    </section>
-    <section>
-        <img src="./images/placeholder.png" alt="Place Holder Image" >
-        <h2>Project Name 3</h2>
-        <aside>Lorem ipsum dolor sit amet.</aside>
-    </section>
-    <section>
-        <img src="./images/placeholder.png" alt="Place Holder Image" >
-        <h2>Project Name 4</h2>
-        <aside>Lorem ipsum dolor sit amet.</aside>
-    </section>
-    
+
     <footer>
-        <h2>Contact Me</h2>
-        <div>
+        <!--Left side of footer with contact me links-->
+        <div class="footerContact">
+            <h2>Contact Me</h2>
             <ul>
                 <!-- NEED TO ADD ICONS-->
-                <li><a href="mailto:webmaster@example.com">Emily Spahr</a></li>
+                <li><a href="mailto:webmaster@example.com">Email</a></li>
                 <li><a href="https://www.linkedin.com/">Linkedin</a></li>
                 <li><a href="https://www.instagram.com/">Instagram</a></li>
             </ul>
         </div>
+
+        <!--Right side of footer with Resume Link-->
+        <div class="footerResume">
+        <a href="https://www.instagram.com/"><h2>Instagram</h2></a>
+        <h2>Resume</h2>
+        </div>
     </footer>
 
-    
 </body>
 </html>
