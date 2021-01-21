@@ -106,7 +106,7 @@ nav ul {
 	max-width: 400px;
 	height: 190px;
 	margin: 20px;
-	background-image: linear-gradient(to left, rgb(195, 232, 189), rgb(157, 219, 173));
+	background-image: linear-gradient(to left, #9DDBAD, #FFD668);
 	}
 
 .rightHandProject {
@@ -119,7 +119,7 @@ nav ul {
 	max-width: 400px;
 	height: 190px;
 	margin: 20px;
-	background-image: linear-gradient(to right, rgb(195, 232, 189), rgb(157, 219, 173));
+	background-image: linear-gradient(to right, #9DDBAD, #FFD668);
 	}
 
 .work {
