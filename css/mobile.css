@@ -107,7 +107,6 @@ nav ul {
 	height: 190px;
 	margin: 20px;
 	background-image: linear-gradient(to left, rgb(195, 232, 189), rgb(157, 219, 173));
-	border-radius: 20px;
 	}
 
 .rightHandProject {
@@ -116,12 +115,11 @@ nav ul {
 	align-items: center;
 	position:relative;
 	padding: 0vw;
-	width: 85%;
+	width: 85vw;
 	max-width: 400px;
 	height: 190px;
 	margin: 20px;
 	background-image: linear-gradient(to right, rgb(195, 232, 189), rgb(157, 219, 173));
-	border-radius: 20px;
 	}
 
 .work {
@@ -140,6 +138,7 @@ nav ul {
 }
 
 footer {
+	margin-top: 100px;
 	width: 90vw;
 	text-align: center;
 	display: flex;
@@ -152,3 +151,48 @@ footer {
 	margin-top: -15px;
 }
 
+.factText {
+	width: 70%;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	margin-left: 15%;
+	font-size: 1.5vh;
+}
+
+.rightHandFact {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position:relative;
+	padding: 0vw;
+	width: 85%;
+	max-width: 400px;
+	height: 190px;
+	margin: 20px;
+}
+
+.leftHandFact {
+	display: flex;
+	align-items: center;
+	position:relative;
+	padding: .5vw;
+	width: 85vw;
+	max-width: 400px;
+	height: 190px;
+	margin: 20px;
+}
+
+.colorBoxL {
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+	margin-left: 20px;
+}
+
+.colorBoxR {
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+	margin-right: 20px;
+}

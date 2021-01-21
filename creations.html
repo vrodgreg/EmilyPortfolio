@@ -1,157 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (min-width: 1028px)" href="css/desktop.css">
-    <link rel="stylesheet" media="screen and (max-width: 1027px)" href="css/mobile.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1028px)"
+      href="css/desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1027px)"
+      href="css/mobile.css"
+    />
+    <link rel="stylesheet" href="hamburger.css" />
     <title>Emily Spahr's Portfolio - Creations</title>
-</head>
+  </head>
 
-<body>
-    <!-- Very Top Navigatoion
-    Does not scroll 
-    No Background Color-->
-    <nav>
-        <img src="./images/logo.png" alt="Logo" >
-        <h1>Emily Spahr</h1>
-        <ul>
-            <li>
-                <a href="creations.html">Creations</a>
-            </li>
-            <li>
-                <a href="passions.html">Passions</a>
-            </li>
+  <body>
+    <!--hamburger menu -->
+    <header class="header">
+        <img src="./images/Logo.png" class="logo" alt="Logo" />
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#">My Work</a></li>
+          <li><a href="creations.html">Project 1</a></li>
+          <li><a href="passions.html">About Me</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+          <li><a href="/files/resume.pdf">My Resume</a></li>
         </ul>
-    </nav>
-
-    <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
-    <header>
-        <div>
-            <h2>Project Name</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare.</p>
-        </div>
     </header>
 
-    <!--Background Change-->
-    <section>
-        <h2>Company Name</h2>
-        <h3>Problem Statement</h3>
-        <section>
-            <div>
-                <p>Role</p>
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-            </div>
-            <div>
-                <p>Time</p>
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-            </div>
-            <div>
-                <p>Tools</p>
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-            </div>
-        </section>
-        <section>
-            <h3>Process</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-        </section>
+    <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
+    <section class="hero">
+      <div>
+        <h2>Emily Spahr</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          ornare.
+        </p>
+      </div>
     </section>
 
     <!--Background Change-->
     <section>
-        <h3>Research</h3>
-        <section>
-            <div>
-                <p>Tool 1</p>
-            </div>
-            <div>
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-            </div>
-        </section>
-        <section>
-            <h3>Tool 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-            <img src="./images/placeholder.png" alt="Place Holder Image" >
-        </section>
-        <section>
-            <h3>Tool 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-            <img src="./images/placeholder.png" alt="Place Holder Image" >
-        </section>
+      <h2>Company Name</h2>
+      <h3>Problem Statement</h3>
+      <section>
+        <div>
+          <p>Role</p>
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+        </div>
+        <div>
+          <p>Time</p>
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+        </div>
+        <div>
+          <p>Tools</p>
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+        </div>
+      </section>
+      <section>
+        <h3>Process</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+          pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
+          urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
+          ornare mattis blandit. Nunc tempus lorem.
+        </p>
+      </section>
     </section>
 
     <!--Background Change-->
     <section>
-        <h3>Synthesizing</h3>
-        <section>
-            <div>
-                <p>Tool 1</p>
-            </div>
-            <div>
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-                <img src="./images/placeholderSQR.jpg" alt="Logo" >
-            </div>
-        </section>
-        <section>
-            <h3>Tool 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-            <img src="./images/placeholder.png" alt="Place Holder Image" >
-        </section>
-        <section>
-            <h3>Tool 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-            <img src="./images/placeholder.png" alt="Place Holder Image" >
-        </section>
+      <h3>Research</h3>
+      <section>
+        <div>
+          <p>Tool 1</p>
+        </div>
+        <div>
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+        </div>
+      </section>
+      <section>
+        <h3>Tool 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+          pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
+          urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
+          ornare mattis blandit. Nunc tempus lorem.
+        </p>
+        <img src="./images/placeholder.png" alt="Place Holder Image" />
+      </section>
+      <section>
+        <h3>Tool 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+          pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
+          urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
+          ornare mattis blandit. Nunc tempus lorem.
+        </p>
+        <img src="./images/placeholder.png" alt="Place Holder Image" />
+      </section>
     </section>
 
     <!--Background Change-->
     <section>
-        <h3>Solution</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-        <img src="./images/placeholder.png" alt="Place Holder Image" >
+      <h3>Synthesizing</h3>
+      <section>
+        <div>
+          <p>Tool 1</p>
+        </div>
+        <div>
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+          <img src="./images/placeholderSQR.jpg" alt="Logo" />
+        </div>
+      </section>
+      <section>
+        <h3>Tool 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+          pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
+          urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
+          ornare mattis blandit. Nunc tempus lorem.
+        </p>
+        <img src="./images/placeholder.png" alt="Place Holder Image" />
+      </section>
+      <section>
+        <h3>Tool 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+          pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
+          urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
+          ornare mattis blandit. Nunc tempus lorem.
+        </p>
+        <img src="./images/placeholder.png" alt="Place Holder Image" />
+      </section>
+    </section>
+
+    <!--Background Change-->
+    <section>
+      <h3>Solution</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+        pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna
+        tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare
+        mattis blandit. Nunc tempus lorem.
+      </p>
+      <img src="./images/placeholder.png" alt="Place Holder Image" />
     </section>
     <section>
-        <h3>Mockups</h3>
-        <img src="./images/placeholder.png" alt="Place Holder Image" >
+      <h3>Mockups</h3>
+      <img src="./images/placeholder.png" alt="Place Holder Image" />
     </section>
     <section>
-        <h3>Metrics</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
+      <h3>Metrics</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+        pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna
+        tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare
+        mattis blandit. Nunc tempus lorem.
+      </p>
     </section>
     <section>
-        <h3>Conclusion</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
+      <h3>Conclusion</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+        pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna
+        tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare
+        mattis blandit. Nunc tempus lorem.
+      </p>
     </section>
 
     <!-- Next Project -->
     <div class="rightHandProject">
-        <img src="./images/placeholder.png" alt="Place Holder Image" >
-        <h2>Project Name 2</h2>
-        <aside>Lorem ipsum dolor sit amet.</aside>
+      <img src="./images/placeholder.png" alt="Place Holder Image" />
+      <h2>Project Name 2</h2>
+      <aside>Lorem ipsum dolor sit amet.</aside>
     </div>
 
     <footer>
-        <!--Left side of footer with contact me links-->
-        <div class="footerContact">
-            <h2>Contact Me</h2>
-            <ul>
-                <!-- NEED TO ADD ICONS-->
-                <li><a href="mailto:webmaster@example.com">Email</a></li>
-                <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-                <li><a href="https://www.instagram.com/">Instagram</a></li>
-            </ul>
-        </div>
+      <!--Left side of footer with contact me links-->
+      <div class="footerContact">
+        <h2>Contact Me</h2>
+        <ul>
+          <!-- NEED TO ADD ICONS-->
+          <li><a href="mailto:webmaster@example.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+          <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+      </div>
 
-        <!--Right side of footer with Resume Link-->
-        <div class="footerResume">
+      <!--Right side of footer with Resume Link-->
+      <div class="footerResume">
         <a href="https://www.instagram.com/"><h2>Instagram</h2></a>
         <h2>Resume</h2>
-        </div>
+      </div>
     </footer>
-    
-</body>
-
+  </body>
 </html>

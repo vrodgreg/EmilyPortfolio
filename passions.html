@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (min-width: 1028px)" href="css/desktop.css">
-    <link rel="stylesheet" media="screen and (max-width: 1027px)" href="css/mobile.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1028px)"
+      href="css/desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1027px)"
+      href="css/mobile.css"
+    />
+    <link rel="stylesheet" href="hamburger.css" />
     <title>Emily Spahr's Portfolio - Passions</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!--hamburger menu -->
+    <header class="header">
+      <img src="./images/Logo.png" class="logo" alt="Logo" />
+      <!-- <h1> Emily Spahr </h1>-->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="index.html">My Work</a></li>
+        <li><a href="creations.html">Project 1</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
+        <li><a href="/files/resume.pdf">My Resume</a></li>
+      </ul>
+    </header>
+
     <!-- Very Top Navigatoion
     Does not scroll 
     No Background Color-->
-    <nav>
+    <!--<nav>
         <img src="./images/logo.png" alt="Logo" >
         <h1>Emily Spahr</h1>
         <ul>
@@ -23,59 +49,97 @@
                 <a href="passions.html">Passions</a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
 
     <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
-    <header>
-        <div>
-            <h2>Emily Spahr</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare.</p>
-        </div>
-    </header>
-
-    <section>
-        <h2>ABOUT</h2>
-        <div class="leftHandProject">
-            <img src="./images/placeholderSQR.jpg" alt="Place Holder Image" >
-            <h2>Passion 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-        </div>
-        <div class="rightHandProject">
-            <img src="./images/placeholderSQR.jpg" alt="Place Holder Image" >
-            <h2>Passion 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-        </div>
-        <div class="leftHandProject">
-            <img src="./images/placeholderSQR.jpg" alt="Place Holder Image" >
-            <h2>Passion 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-        </div>
-        <div class="rightHandProject">
-            <img src="./images/placeholderSQR.jpg" alt="Place Holder Image" >
-            <h2>Passion 4</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare mattis blandit. Nunc tempus lorem.</p>
-        </div>
+    <section class="hero">
+      <div>
+        <h2>Emily Spahr</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          ornare.
+        </p>
+      </div>
     </section>
 
-    <footer>
-        <!--Left side of footer with contact me links-->
-        <div class="footerContact">
-            <h2>Contact Me</h2>
-            <ul>
-                <!-- NEED TO ADD ICONS-->
-                <li><a href="mailto:webmaster@example.com">Email</a></li>
-                <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-                <li><a href="https://www.instagram.com/">Instagram</a></li>
-            </ul>
-        </div>
+    <h2 id="workHeading">ABOUT</h2>
 
-        <!--Right side of footer with Resume Link-->
-        <div class="footerResume">
-        <a href="https://www.instagram.com/"><h2>Instagram</h2></a>
-        <h2>Resume</h2>
+    <section class="passions">
+      <div class="leftHandFact">
+        <div class="colorBoxL"></div>
+        <div class="factText">
+          <h3>Fun Fact 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu
+            pellentesque senectus nec ut aliquam platea parturient eget. Vitae
+            quis est consectetur mattis at sapien morbi in eu.
+          </p>
         </div>
+      </div>
+      <div class="rightHandFact">
+        <div class="colorBoxR"></div>
+        <div class="factText">
+          <h3>Fun Fact 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu
+            pellentesque senectus nec ut aliquam platea parturient eget. Vitae
+            quis est consectetur mattis at sapien morbi in eu.
+          </p>
+        </div>
+      </div>
+      <div class="leftHandFact">
+        <div class="colorBoxL"></div>
+        <div class="factText">
+          <h3>Fun Fact 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu
+            pellentesque senectus nec ut aliquam platea parturient eget. Vitae
+            quis est consectetur mattis at sapien morbi in eu.
+          </p>
+        </div>
+      </div>
+      <div class="rightHandFact">
+        <div class="colorBoxR"></div>
+        <div class="factText">
+          <h3>Fun Fact 4</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu
+            pellentesque senectus nec ut aliquam platea parturient eget. Vitae
+            quis est consectetur mattis at sapien morbi in eu.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contactMe">
+      <!--Left side of footer with contact me links-->
+      <div class="footerContact">
+        <h4>CONTACT ME</h4>
+        <div>
+          <a href="mailto:webmaster@example.com"
+            ><img src="./images/email.jpg" width="50" alt="Email"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="./images/linkedin.png" width="50" alt="Linkedin"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="./images/instagram.jpg" width="50" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+
+      <!--Right side of footer with Resume Link-->
+      <div class="footerResume">
+        <h4>MY RESUME</h4>
+        <a href="/files/resume.pdf"
+          ><h2>
+            <img
+              src="./images/pngtree-download-arrow-vector-icon-white-transparent-background-png-image_1978018.jpg"
+              width="50"
+              alt="Resume"
+            /></h2
+        ></a>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
