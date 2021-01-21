@@ -1,80 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/desktop.css">
-    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobile.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 801px)"
+      href="css/desktop.css"
+    />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="hamburger.css" />
     <title>Emily Spahr's Porfolio - Main</title>
-</head>
-<body>
+  </head>
+  <body>
+
+    <!--hamburger menu -->
+    <header class="header">
+        <img src="./Images/Logo.png" class="logo" alt="Logo" />
+        <!-- <h1> Emily Spahr </h1>-->
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#work">My Work</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
+          <li><a href="/files/resume.pdf">My Resume</a></li>
+        </ul>
+    </header>
+
+
     <!-- Very Top Navigatoion
         Does not scroll 
         No Background Color-->
-    <nav>
-        <img src="./images/logo.png" alt="Logo" >
+    <!--<nav>
+      <div>
+        <img id="logo" src="./images/logo.png" alt="Logo" />
         <h1>Emily Spahr</h1>
-        <ul>
-            <li>
-                <a href="creations.html">Creations</a>
-            </li>
-            <li>
-                <a href="passions.html">Passions</a>
-            </li>
-        </ul>
-    </nav>
+      </div>
+      <ul>
+        <li>
+          <a href="creations.html">Creations</a>
+        </li>
+        <li>
+          <a href="passions.html">Passions</a>
+        </li>
+      </ul>
+    </nav> -->
 
     <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
-    <header>
-        <div>
-            <h2>Emily Spahr</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare.</p>
-        </div>
-    </header>
-
-    <!-- Body woth various project blocks-->
-    <section>
-        <h2>WORK</h2>
-      <div class="leftHandProject">
-          <img src="./images/placeholder.png" alt="Place Holder Image" >
-          <h2>Project Name 1</h2>
-          <aside>Lorem ipsum dolor sit amet.</aside>
-      </div>
-      <div class="rightHandProject">
-          <img src="./images/placeholder.png" alt="Place Holder Image" >
-          <h2>Project Name 2</h2>
-          <aside>Lorem ipsum dolor sit amet.</aside>
-      </div>
-      <div class="leftHandProject">
-          <img src="./images/placeholder.png" alt="Place Holder Image" >
-          <h2>Project Name 3</h2>
-          <aside>Lorem ipsum dolor sit amet.</aside>
-      </div>
-      <div class="rightHandProject">
-          <img src="./images/placeholder.png" alt="Place Holder Image" >
-          <h2>Project Name 4</h2>
-          <aside>Lorem ipsum dolor sit amet.</aside>
+    <section class="hero">
+      <div>
+        <h2>Emily Spahr</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          ornare.
+        </p>
       </div>
     </section>
 
-    <footer>
-        <!--Left side of footer with contact me links-->
-        <div class="footerContact">
-            <h2>Contact Me</h2>
-            <ul>
-                <!-- NEED TO ADD ICONS-->
-                <li><a href="mailto:webmaster@example.com">Email</a></li>
-                <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-                <li><a href="https://www.instagram.com/">Instagram</a></li>
-            </ul>
-        </div>
+    <!-- Body woth various project blocks-->
+    <h2 id="workHeading">WORK</h2>
 
-        <!--Right side of footer with Resume Link-->
-        <div class="footerResume">
-        <a href="https://www.instagram.com/"><h2>Instagram</h2></a>
-        <h2>Resume</h2>
+    <section class="work">
+      <div class="leftHandProject">
+        <img
+          id="projPicL"
+          src="./images/placeholder.png"
+          alt="Place Holder Image"
+        />
+        <div class="titleL">
+          <h3>Project Name 1</h3>
+          <aside>Lorem ipsum dolor sit amet.</aside>
         </div>
+      </div>
+
+      <div class="rightHandProject">
+        <div class="titleR">
+            <h3>Project Name 2</h3>
+            <aside>Lorem ipsum dolor sit amet.</aside>
+        </div>
+        <img
+          id="projPicR"
+          src="./images/placeholder.png"
+          alt="Place Holder Image"
+        />
+      </div>
+
+      <div class="leftHandProject">
+        <img
+          id="projPicL"
+          src="./images/placeholder.png"
+          alt="Place Holder Image"
+        />
+        <div class="titleL">
+          <h3>Project Name 3</h3>
+          <aside>Lorem ipsum dolor sit amet.</aside>
+        </div>
+      </div>
+
+      <div class="rightHandProject">
+        <div class="titleR">
+            <h3>Project Name 4</h3>
+            <aside>Lorem ipsum dolor sit amet.</aside>
+        </div>
+        <img
+          id="projPicR"
+          src="./images/placeholder.png"
+          alt="Place Holder Image"
+        />
+      </div>
+    </section>
+
+    <footer id="contactMe">
+      <!--Left side of footer with contact me links-->
+      <div class="footerContact">
+        <h4>CONTACT ME</h4>
+        <div>
+          <!-- NEED TO ADD ICONS-->
+          <a href="mailto:webmaster@example.com"><img src="Images/email.jpg" width="50" alt="Email"></a>
+          <a href="https://www.linkedin.com/"><img src="Images/linkedin.png" width="50" alt="Linkedin"></a>
+          <a href="https://www.instagram.com/"><img src="Images/instagram.jpg" width="50" alt="Instagram"></a>
+        </div>
+      </div>
+
+      <!--Right side of footer with Resume Link-->
+      <div class="footerResume">
+        <h4>MY RESUME</h4>
+        <a href="/files/resume.pdf"><h2><img src="Images/pngtree-download-arrow-vector-icon-white-transparent-background-png-image_1978018.jpg" width="50" alt="Resume"></h2></a>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

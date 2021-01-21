@@ -1,1 +1,147 @@
 /* mobile CSS */
+
+html * {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:link {
+	text-decoration:none
+}
+
+#logo {
+	width: 20vw;
+}
+
+/*nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+nav div {	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	list-style: none;
+	margin: 1em;
+}*/
+
+.hero {
+	background-image: url("../images/223-1000x300.jpg"), url("paper.gif");
+	background-size: cover;
+	height: 15vh;
+	padding-top: 8vh;
+	display: flex;
+	align-items: center;
+}
+
+.hero div {
+	color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255, 0.3);
+	position: relative;
+	padding: 1.0vh;
+	left: 10%;
+  width: 50vw;
+  height: 10vh;
+	font-size: 1.5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.titleL {
+	width: 70%;
+	position: relative;
+	left: -5%;
+	font-size: 1.5vh;
+}
+
+.titleR {
+	width: 70%;
+	position: relative;
+	right: -5%;
+	font-size: 1.5vh;
+}
+
+#projPicL {
+	height: 90%;
+	position: relative;
+	left: 5%;
+	top: auto;
+}
+
+#projPicR {
+	height: 90%;
+	position: relative;
+	right: 5%;
+	top: auto;
+}
+
+.leftHandProject {
+	display: flex;
+	align-items: center;
+	padding: .5vw;
+	width: 85%;
+	max-width: 400px;
+	height: 190px;
+	margin: auto;
+	background-image: linear-gradient(to left, rgb(195, 232, 189), rgb(157, 219, 173));
+	border-radius: 20px;
+	}
+
+.rightHandProject {
+	display: flex;
+	align-items: center;
+	padding: .5vw;
+	width: 85%;
+	max-width: 400px;
+	height: 190px;
+	margin: auto;
+	background-image: linear-gradient(to right, rgb(195, 232, 189), rgb(157, 219, 173));
+	border-radius: 20px;
+	}
+
+.work {
+	width: 90vw;
+	height: 110vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	/*align-content: space-around;*/
+}
+
+#workHeading {
+	margin-left: 7vw;
+}
+
+footer {
+	width: 90vw;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footerResume img {
+	margin-top: -15px;
+}
+
