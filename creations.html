@@ -20,7 +20,7 @@
   <body>
     <!--hamburger menu -->
     <header class="header">
-        <img src="./images/Logo.png" class="logo" alt="Logo" />
+        <img src="./images/EKlogo.png" class="logo" alt="Logo" />
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
@@ -33,30 +33,37 @@
     </header>
 
     <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
-    <section class="hero">
-      <div>
-        <h2>PROJECT NAME</h2>
-        <!--<p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          ornare.
-        </p> -->
-      </div>
+    <section class="heroP">
+        <div>
+          <img src="/images/headerImageLG.png" alt="Researcher in a window">
+          <div class="heroPText">
+            <h1>Connecting with the world</h1>
+            <h2>WhatsApp</h2>
+          </div>
+        </div>
     </section>
 
     <!--Background Change-->
-    <section>
-      <h3>Company Name</h3>
-      <h3>Problem Statement</h3>
+    <section class="topSection">
+      <div class="secHeading">
+        <img src="./images/whatsapp.png" alt="WhatsApp">
+      </div>
+      <div class="titleText">
+          <b>Problem Statement</b>
+          <p class="indentP">
+            redesign of the location live-sharing feature on the WhatsApp Mobile App
+          </p>
+      </div>
       <section>
-        <div>
+        <div class="topIcons">
           <img src="./images/UX Researcher.png" alt="Logo" />
           <img src="./images/time.png" alt="Logo" />
           <img src="./images/wrench.png" alt="Logo" />
         </div>
       </section>
-      <section>
+      <section class="titleText">
         <b>Overview</b>
-        <p>
+        <p class="indentP">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
           pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
           urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
@@ -66,13 +73,15 @@
     </section>
 
     <!--Background Change-->
-    <section>
-      <h3>RESEARCH</h3>
-      <h3>Goals</h3>
+    <section class="research">
+        <div class="secHeading">
+          <h3>User Research</h3>
+          <h3>Goals</h3>
+        </div>
       <section>
-        <div>
+        <div class="titleText">
           <p>Tool 1</p>
-          <p>
+          <p class="indentP">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
             pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
             urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
@@ -80,88 +89,111 @@
           </p>
         </div>
         <div>
-            <img src="./images/03 Bar Chart.png" alt=" Tool 1 Bar Chart" />
+            <img  id="barGraph" src="./images/03 Bar Chart.png" alt=" Tool 1 Bar Chart" />
         </div>
       </section>
 
-      <section>
-        <h3>Tool 2</h3>
-        <p>
+      <div class="titleText">
+        <p>Tool 2</p>
+        <p class="indentP">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
           pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
           urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
           ornare mattis blandit. Nunc tempus lorem.
         </p>
-        <img src="./images/placeholder.png" alt="Place Holder Image" />
+        </div>
+        <img id="stdImg" src="./images/placeholder.png" alt="Place Holder Image" />
       </section>
     </section>
 
     <!--Background Change-->
-    <section>
-      <h3>RESEARCH SYNTHESIS</h3>
+    <section class="topSection">
+      <div  class="secHeading">
+        <h3>RESEARCH SYNTHESIS</h3>
       <h3>Goals</h3>
+    </div>
       <section>
-        <h3>Tool 1</h3>
-        <p>
+          <div class="titleText">
+        <p>Tool 1</p>
+        <p class="indentP">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
           pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
           urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
           ornare mattis blandit. Nunc tempus lorem.
         </p>
-        <img src="./images/placeholder.png" alt="Place Holder Image" />
+    </div>
+        <img id="stdImg" src="./images/placeholder.png" alt="Place Holder Image" />
       </section>
-      <section>
-        <h3>Tool 2</h3>
-        <p>
+<section>
+      <div class="titleText">
+        <p>Tool 2</p>
+        <p class="indentP">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
           pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer
           urna tortor, congue non metus ac, aliquam facilisis odio. Mauris
           ornare mattis blandit. Nunc tempus lorem.
         </p>
-        <img src="./images/placeholder.png" alt="Place Holder Image" />
+        </div>
+        <img id="stdImg" src="./images/placeholder.png" alt="Place Holder Image" />
       </section>
     </section>
      
     </section>
 
     <!--Background Change-->
-    <section>
-      <div>
+    <section class="solution">
+      <div class="titleText">
         <h3>SOLUTION</h3>
-      <p>
+      <p class="indentP">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
         pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna
         tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare
         mattis blandit. Nunc tempus lorem.
       </p>
     </div>
-      <img src="./images/placeholder.png" alt="Place Holder Image" />
+      <img id="stdImg" src="./images/placeholder.png" alt="Place Holder Image" />
     </section>
 
-    <section>
+    <section class="research">
       <h3>MOCKUPS</h3>
-      <img src="./images/placeholder.png" alt="Place Holder Image" />
+      <img id="stdImg" src="./images/placeholder.png" alt="Place Holder Image" />
     </section>
 
-    <section>
-      <h3>METRICS</h3>
-      <p>
+    <section class="research">
+      <div class="titleText">
+        <h3>METRICS</h3>
+      <p class="indentP">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
         pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna
         tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare
         mattis blandit. Nunc tempus lorem.
       </p>
+    </div>
     </section>
 
-    <section>
+    <section class="topSection">
+        <div class="titleText">
+            <h3>CONCLUSION</h3>
+            <p class="indentP">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
+                pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna
+                tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare
+                mattis blandit. Nunc tempus lorem.    
+            </p>
+        </div>
+    </section>
+
+    <!--<section>
+      <div class="titleText">
       <h3>CONCLUSION</h3>
-      <p>
+      <p class="indentP">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in
         pellentesque mi. Maecenas porttitor at nisl nec malesuada. Integer urna
         tortor, congue non metus ac, aliquam facilisis odio. Mauris ornare
         mattis blandit. Nunc tempus lorem.
       </p>
-    </section>
+      </div>
+    </section> -->
 
     <!-- Next Project -->
     <div class="rightHandProject">
@@ -176,23 +208,23 @@
         />
       </div>
 
-    <footer>
-      <!--Left side of footer with contact me links-->
-      <div class="footerContact">
-        <h2>Contact Me</h2>
-        <ul>
-          <!-- NEED TO ADD ICONS-->
-          <li><a href="mailto:webmaster@example.com">Email</a></li>
-          <li><a href="https://www.linkedin.com/">Linkedin</a></li>
-          <li><a href="https://www.instagram.com/">Instagram</a></li>
-        </ul>
-      </div>
-
-      <!--Right side of footer with Resume Link-->
-      <div class="footerResume">
-        <a href="https://www.instagram.com/"><h2>Instagram</h2></a>
-        <h2>Resume</h2>
-      </div>
-    </footer>
+      <footer id="contactMe">
+        <!--Left side of footer with contact me links-->
+        <div class="footerContact">
+          <h4>CONTACT ME</h4>
+          <div>
+            <!-- NEED TO ADD ICONS-->
+            <a href="mailto:webmaster@example.com"><img src="./images/email.jpg" width="50" alt="Email"></a>
+            <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" width="50" alt="Linkedin"></a>
+            <a href="https://www.instagram.com/"><img src="./images/instagram.jpg" width="50" alt="Instagram"></a>
+          </div>
+        </div>
+  
+        <!--Right side of footer with Resume Link-->
+        <div class="footerResume">
+          <h4>MY RESUME</h4>
+          <a href="/files/resume.pdf"><h2><img src="./images/pngtree-download-arrow-vector-icon-white-transparent-background-png-image_1978018.jpg" width="50" alt="Resume"></h2></a>
+        </div>
+      </footer>
   </body>
 </html>
