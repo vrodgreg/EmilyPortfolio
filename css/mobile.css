@@ -66,53 +66,60 @@ nav ul {
 }
 
 .titleL {
-	width: 70%;
-	position: relative;
-	left: -5%;
+	width: 40vw;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	margin-right: 15%;
 	font-size: 1.5vh;
 }
 
 .titleR {
-	width: 70%;
-	position: relative;
-	right: -5%;
+	width: 40vw;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	margin-left: 15%;
 	font-size: 1.5vh;
 }
 
 #projPicL {
-	height: 90%;
-	position: relative;
-	left: 5%;
-	top: auto;
+	height: 70%;
+	display: block;
+	float: left;
+	padding-left: 5vw;
 }
 
 #projPicR {
-	height: 90%;
-	position: relative;
-	right: 5%;
-	top: auto;
+	height: 70%;
+	display: block;
+	float: right;
+	padding-right: 5vw;
 }
 
 .leftHandProject {
 	display: flex;
 	align-items: center;
+	position:relative;
 	padding: .5vw;
-	width: 85%;
+	width: 85vw;
 	max-width: 400px;
 	height: 190px;
-	margin: auto;
+	margin: 20px;
 	background-image: linear-gradient(to left, rgb(195, 232, 189), rgb(157, 219, 173));
 	border-radius: 20px;
 	}
 
 .rightHandProject {
 	display: flex;
+	justify-content: flex-end;
 	align-items: center;
-	padding: .5vw;
+	position:relative;
+	padding: 0vw;
 	width: 85%;
 	max-width: 400px;
 	height: 190px;
-	margin: auto;
+	margin: 20px;
 	background-image: linear-gradient(to right, rgb(195, 232, 189), rgb(157, 219, 173));
 	border-radius: 20px;
 	}
