@@ -5,31 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      media="screen and (min-width: 1028px)"
+      media="screen and (min-width: 801px)"
       href="css/desktop.css"
     />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 1027px)"
-      href="css/mobile.css"
-    />
+    <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="hamburger.css" />
-    <title>Emily Spahr's Portfolio - Passions</title>
+    <title>Emily Spahr's Porfolio - About Me</title>
   </head>
 
   <body>
     <!--hamburger menu -->
     <header class="header">
-        <img src="./img/EKlogo.png" class="logo" alt="Logo" />
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="creations.html">My Work</a></li>
-            <li><a href="passions.html">About Me</a></li>
-            <li><a href="#contactMe">Contact Me</a></li>
-            <li><a href="/files/resume.pdf">My Resume</a></li>
-        </ul>
+      <img src="./img/EKlogo.png" class="logo" alt="Logo" />
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="creations.html">My Work</a></li>
+        <li><a href="passions.html">About Me</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
+        <li><a href="/files/resume.pdf">My Resume</a></li>
+      </ul>
     </header>
 
     <!-- Very Top Navigatoion
@@ -50,12 +48,12 @@
 
     <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
     <section class="heroAbout">
-        <img src="./img/emilySpahr.png" alt="Researcher at a desktop">
-        <div class="heroAboutText">
-          <h1>Emily Spahr</h1>
-          <p>Passionate, Creative & Research Driven UX Designer</p>
-        </div>
-  </section>
+      <img src="./img/emilySpahr.png" alt="Researcher at a desktop" />
+      <div class="heroAboutText">
+        <h1>Emily Spahr</h1>
+        <p>Passionate, Creative & Research Driven UX Designer</p>
+      </div>
+    </section>
 
     <h2 id="workHeading">ABOUT</h2>
 
@@ -106,23 +104,30 @@
       </div>
     </section>
 
-
     <footer id="contactMe">
-        <!--Left side of footer with contact me links-->
+      <!--Left side of footer with contact me links-->
+      <div>
+        <h4>CONTACT ME</h4>
         <div>
-          <h4>CONTACT ME</h4>
-          <div>
-            <a href="mailto:webmaster@example.com"><img src="./img/envelope.png" width="30" alt="Email"></a>
-            <a href="https://www.linkedin.com/"><img src="./img/linkedin.png" width="30" alt="Linkedin"></a>
-            <a href="https://www.instagram.com/"><img src="./img/instagram.png" width="30" alt="Instagram"></a>
-          </div>
+          <a href="mailto:webmaster@example.com" target="_blank"
+            ><img src="./img/envelope.png" width="30" alt="Email"
+          /></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><img src="./img/linkedin.png" width="30" alt="Linkedin"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="./img/instagram.png" width="30" alt="Instagram"
+          /></a>
         </div>
-  
-        <!--Right side of footer with Resume Link-->
-        <div class="footerResume">
-          <h4>MY RESUME</h4>
-          <a href="/files/resume.pdf"><h2><img src="./img/download.png" width="30" alt="Resume"></h2></a>
-        </div>
-      </footer>
+      </div>
+
+      <!--Right side of footer with Resume Link-->
+      <div class="footerResume">
+        <h4>MY RESUME</h4>
+        <a href="/files/resume.pdf"
+          ><h2><img src="./img/download.png" width="30" alt="Resume" /></h2
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
