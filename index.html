@@ -16,28 +16,26 @@
 
     <!--hamburger menu -->
     <header class="header">
-        <img src="./images/EKlogo.png" class="logo" alt="Logo" />
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-          <li><a href="#">My Work</a></li>
-          <li><a href="creations.html">Project 1</a></li>
-          <li><a href="passions.html">About Me</a></li>
-          <li><a href="#contactMe">Contact Me</a></li>
-          <li><a href="/files/resume.pdf">My Resume</a></li>
-        </ul>
-    </header>
+      <img src="./img/EKlogo.png" class="logo" alt="Logo" />
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="creations.html">My Work</a></li>
+        <li><a href="passions.html">About Me</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
+        <li><a href="/files/resume.pdf">My Resume</a></li>
+      </ul>
+  </header>
 
     <!-- Pretty Picture (backgroundimage) at top with Name and short statement in somehat transparent block over top background image-->
-    <section class="hero">
-      <div>
-        <h2>Emily Spahr</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          ornare.
-        </p>
-      </div>
-    </section>
+    <section class="heroAbout">
+        <img src="/img/emilySpahr.png" alt="Researcher at a desktop">
+        <div class="heroAboutText">
+          <h1>Emily Spahr</h1>
+          <p>Passionate, Creative & Research Driven UX Designer</p>
+        </div>
+  </section>
 
     <!-- Body woth various project blocks-->
     <h2 id="workHeading">WORK</h2>
@@ -46,68 +44,76 @@
       <div class="leftHandProject">
         <img
           id="projPicL"
-          src="/images/placeholder.png"
-          alt="Place Holder Image"
+          src="/img/headerImageLG.png"
+          alt="Designer in a Window"
         />
         <div class="titleL">
-          <h3>Project Name 1</h3>
-          <aside>Lorem ipsum dolor sit amet.</aside>
+          <h3>Connecting the world</h3>
+          <h4>WhatsApp</h4>
+          <h4>03/2020</h4>
         </div>
+        <a href="creations.html"><img src="./img/rightArrowRemoveBg.png" alt="See Project Button" class="rtAr"></a>
+        <!--<img class="rtAr" src="./img/rightArrowRemoveBg.png" alt="See Project">-->
       </div>
 
       <div class="rightHandProject">
         <div class="titleR">
-            <h3>Project Name 2</h3>
-            <aside>Lorem ipsum dolor sit amet.</aside>
+            <h3>Project Name</h3>
+            <h4>Company</h4>
+            <h4>Date</h4>
         </div>
         <img
           id="projPicR"
-          src="./images/placeholder.png"
-          alt="Place Holder Image"
+          src="./img/headerImageLGRight.png"
+          alt="Designer in a window"
         />
+        <img class="rtArR" src="./img/rightArrowRemoveBg.png" alt="See Project">
       </div>
 
       <div class="leftHandProject">
         <img
           id="projPicL"
-          src="./images/placeholder.png"
-          alt="Place Holder Image"
+          src="./img/headerImageLG.png"
+          alt="Designer in a window"
         />
         <div class="titleL">
-          <h3>Project Name 3</h3>
-          <aside>Lorem ipsum dolor sit amet.</aside>
+          <h3>Project Name</h3>
+          <h4>Company</h4>
+          <h4>Date</h4>
         </div>
+        <img class="rtAr" src="./img/rightArrowRemoveBg.png" alt="See Project">
       </div>
 
       <div class="rightHandProject">
         <div class="titleR">
-            <h3>Project Name 4</h3>
-            <aside>Lorem ipsum dolor sit amet.</aside>
+          <h3>Project Name</h3>
+          <h4>Company</h4>
+          <h4>Date</h4>
         </div>
         <img
           id="projPicR"
-          src="./images/placeholder.png"
-          alt="Place Holder Image"
+          src="./img/headerImageLGRight.png"
+          alt="Designer in a window"
         />
+        <img class="rtArR" src="./img/rightArrowRemoveBg.png" alt="See Project">
       </div>
     </section>
 
     <footer id="contactMe">
       <!--Left side of footer with contact me links-->
-      <div class="footerContact">
+      <div>
         <h4>CONTACT ME</h4>
         <div>
-          <!-- NEED TO ADD ICONS-->
-          <a href="mailto:webmaster@example.com"><img src="./images/email.jpg" width="50" alt="Email"></a>
-          <a href="https://www.linkedin.com/"><img src="./images/linkedin.png" width="50" alt="Linkedin"></a>
-          <a href="https://www.instagram.com/"><img src="./images/instagram.jpg" width="50" alt="Instagram"></a>
+          <a href="mailto:webmaster@example.com"><img src="./img/envelope.png" width="30" alt="Email"></a>
+          <a href="https://www.linkedin.com/"><img src="./img/linkedin.png" width="30" alt="Linkedin"></a>
+          <a href="https://www.instagram.com/"><img src="./img/instagram.png" width="30" alt="Instagram"></a>
         </div>
       </div>
 
       <!--Right side of footer with Resume Link-->
       <div class="footerResume">
         <h4>MY RESUME</h4>
-        <a href="/files/resume.pdf"><h2><img src="./images/pngtree-download-arrow-vector-icon-white-transparent-background-png-image_1978018.jpg" width="50" alt="Resume"></h2></a>
+        <a href="/files/resume.pdf"><h2><img src="./img/download.png" width="30" alt="Resume"></h2></a>
       </div>
     </footer>
   </body>
