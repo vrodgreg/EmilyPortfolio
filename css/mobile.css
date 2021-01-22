@@ -121,19 +121,21 @@ a:link {
 }
 
 .rtAr {
-  width: 20%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 0px 15px 15px 0px;
+  width: 100%;
+
 }
 
 .rtArR {
-  width: 20%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 0px 0px 15px 15px;
+  width: 100%;
+}
+
+.butClick {
+	position: absolute;
+  right: 0;
+	bottom: 10px;
+	right: 10px;
+	z-index: 100;
+	width: 20%;
 }
 
 .rightHandProject {
@@ -247,13 +249,14 @@ footer {
   padding-top: 2vh;
 }
 
-.indentP {
+/*.indentP {
   width: 90%;
   margin-left: 8%;
-}
+}*/
 
 .titleText {
-  margin-top: 5vh;
+	margin-top: 5vh;
+	margin-left: 20px;
 }
 
 .secHeading {
